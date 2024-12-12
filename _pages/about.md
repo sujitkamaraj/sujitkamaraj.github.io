@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a master’s student in the Kahlert School of Computing at the University of Utah, where my research focuses on designing and developing web-based touchscreen tasks to measure cognitive performance. My work aims to improve healthcare tools by creating accessible, user-centered digital solutions.
+I am a master’s student in the Kahlert School of Computing at the University of Utah, where my research focuses on designing and developing web-based touchscreen tasks to measure cognitive performance. My work aims to improve healthcare by creating accessible, user-centered digital solutions.
 
 My research interests include human-computer interaction, digital health, and studying how communities interact with digital tools. I am passionate about creating tools that empower individuals and underserved communities by making advanced technologies more accessible and inclusive.
 
