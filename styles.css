@@ -1,0 +1,132 @@
+
+/* styles.css */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background:#fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #000000;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.section {
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  color: #1f2937;
+  border-bottom: 2px solid #9498a2;
+  padding-bottom: 0.5rem;
+}
+
+img.profile {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 8px; /* Optional: for slightly rounded corners */
+}
+
+
+ul {
+  padding-left: 1.25rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  background: #f3f4f6;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  img.profile {
+    width: 150px;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  body {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  header p {
+    font-size: 0.95rem;
+  }
+
+  .container {
+    padding: 0 0.75rem;
+  }
+
+  img.profile {
+    width: 100px;
+  }
+
+  body {
+    font-size: 0.95rem;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cv-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.55em 1.25em;
+  background-color: #000000;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.cv-button:hover {
+  background-color: #333;
+}
