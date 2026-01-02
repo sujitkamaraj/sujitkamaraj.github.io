@@ -34,7 +34,7 @@ header h1 {
 
 /* Square wrapper for images and captions */
 .square {
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 3 / 4;
   overflow: hidden;
   width: 100%;
   position: relative;
