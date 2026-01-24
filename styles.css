@@ -86,6 +86,22 @@ footer {
   body {
     font-size: 1rem;
   }
+
+ .about-content {
+  flex-direction: column !important;     /* stack */
+  align-items: center;        /* center children */
+}
+
+.about-content .profile {
+  width: 140px;
+  margin: 0 auto 1rem auto;   /* center image */
+}
+
+.about-text {
+  text-align: left;
+}
+
+
 }
 
 @media (max-width: 480px) {
@@ -142,3 +158,19 @@ img {
   color: #736e6e; /* slightly lighter/darker than black */
 }
 
+/* About Me layout */
+.about-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  flex-direction: row-reverse; /* image on the right */
+}
+
+.about-content .profile {
+  width: 180px;
+  margin: 0;
+}
+
+.about-text {
+  flex: 1;
+}
