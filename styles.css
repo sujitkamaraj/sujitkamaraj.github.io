@@ -75,10 +75,6 @@ footer {
     padding: 0 1rem;
   }
 
-  img.profile {
-    width: 150px;
-  }
-
   h2 {
     font-size: 1.25rem;
   }
@@ -89,12 +85,14 @@ footer {
 
  .about-content {
   flex-direction: column !important;     /* stack */
-  align-items: center;        /* center children */
+  align-items: stretch;        /* center children */
 }
 
 .about-content .profile {
-  width: 140px;
-  margin: 0 auto 1rem auto;   /* center image */
+  width: 100%;
+  max-width: 100%; 
+  margin: 0 0 1rem 0;
+  border-radius: 10px;
 }
 
 .about-text {
